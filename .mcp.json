@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "make": {
+      "type": "sse",
+      "url": "https://mcp.make.com/sse"
+    }
+  }
+}
