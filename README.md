@@ -18,10 +18,14 @@ No scenario-building, no manual configuration. One conversation, done.
 
 ### 1. Install the plugin
 
-**From the Claude Code marketplace:**
+**From the marketplace:**
 
 ```bash
-claude plugin install https://github.com/blackeyeliner/make-connector-plugin
+# Step 1: Add the marketplace
+/plugin marketplace add blackeyeliner/make-connector-plugin
+
+# Step 2: Install the plugin
+/plugin install make-connector@make-connector-marketplace
 ```
 
 **Or manually:**

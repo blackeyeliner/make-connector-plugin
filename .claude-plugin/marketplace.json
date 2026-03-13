@@ -1,0 +1,14 @@
+{
+  "name": "make-connector-marketplace",
+  "owner": {
+    "name": "Anton Danilov",
+    "email": "a.danilov@make.com"
+  },
+  "plugins": [
+    {
+      "name": "make-connector",
+      "source": "./",
+      "description": "Connects Claude to 3500+ apps via Make. When a user needs to interact with any third-party service (Slack, Jira, Google, Salesforce, etc.), this plugin teaches Claude to build and run Make tools on the fly — authorizing connections, creating modules, and executing them without leaving the conversation."
+    }
+  ]
+}
